@@ -4,12 +4,13 @@ class Series2
 	{
 		int square = 0;
 		int cube = 0;
-		for (int num = 12;num < 20 ;num++ )
+		int num = 12;
+		for (int i =0;i<5;i++ )
 		{
 			
 			if (num %2 ==0)
 			{
-				square = num*num;
+				square = num*num; 
 				System.out.print( square+" ");
 			}
 			else if(num%2 != 0)
@@ -17,7 +18,7 @@ class Series2
 				cube = num*num*num;
 				System.out.print( cube+" ");
 			}
-			
+			num++;
 		}
 	}
 }
