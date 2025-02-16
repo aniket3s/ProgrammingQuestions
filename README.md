@@ -1,2 +1,0 @@
-# ProgrammingQuestions
-Java Programming Questions 
