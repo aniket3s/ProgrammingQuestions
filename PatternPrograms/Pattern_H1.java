@@ -22,7 +22,14 @@ class Pattern_H1
 			}
 			System.out.println();
 		}
-		System.out.println();
+
+D:\Programming>java Pattern_H1
+        *
+      * *
+    *   *
+  *     *
+* * * * *
+System.out.println();
 		for (int i =1;i<=n ;i++ )               //B
 		{
 		//	for (int j=1; j<=n-i;j++ )
@@ -41,7 +48,12 @@ class Pattern_H1
 			}
 			System.out.println();
 		}
-		System.out.println();
+*
+* *
+*   *
+*     *
+* * * * *
+System.out.println();
 
 		for (int i =n;i>=1 ;i--)    //C
 		{
@@ -61,7 +73,12 @@ class Pattern_H1
 			}
 			System.out.println();
 		}
-		System.out.println();
+* * * * *
+  *     *
+    *   *
+      * *
+        *
+System.out.println();
 
 		for (int i =n;i>=1 ;i--)    //D
 		{
@@ -81,7 +98,13 @@ class Pattern_H1
 			}
 			System.out.println();
 		}
-		System.out.println();
+* * * * *
+*     *
+*   *
+* *
+*
+
+System.out.println();
 
 		for (int i =1;i<=n ;i++ )    //AB
 		{
@@ -111,7 +134,13 @@ class Pattern_H1
 			}
 			System.out.println();
 		}
-		System.out.println();
+
+        *
+      *   *
+    *       *
+  *           *
+* * * * * * * * *
+System.out.println();
 		for (int i =n;i>=1 ;i--)    //CD
 		{
 			for (int j=1; j<=n-i;j++ )
@@ -140,7 +169,12 @@ class Pattern_H1
 			}
 			System.out.println();
 		}
-		System.out.println();
+* * * * * * * * *
+  *           *
+    *       *
+      *   *
+        *
+System.out.println();
 
 
 		for (int i =1;i<=n ;i++ )    //AB
@@ -199,5 +233,15 @@ class Pattern_H1
 			}
 			System.out.println();
 		}
+        *
+      *   *
+    *       *
+  *           *
+*               *
+*               *
+  *           *
+    *       *
+      *   *
+        *
 	}
 }
