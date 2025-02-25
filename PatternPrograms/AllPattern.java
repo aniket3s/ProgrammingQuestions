@@ -11,7 +11,18 @@ class AllPattern {
 			}
 			System.out.println();
 		}
-		System.out.println();
+D:\Programming>java AllPattern
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * * *
+* * * * * * *
+* * * * * * * *
+* * * * * * * * *
+System.out.println();
+		
 		for (int i = 1; i <= n; i++) /* B */
 		{
 			for (int j = 1; j <= n - i; j++) {
@@ -22,7 +33,16 @@ class AllPattern {
 			}
 			System.out.println();
 		}
-		System.out.println("");
+		*
+              * *
+            * * *
+          * * * *
+        * * * * *
+      * * * * * *
+    * * * * * * *
+  * * * * * * * *
+* * * * * * * * *
+System.out.println("");
 
 		for (int i = n; i >= 1; i--) /* C */
 		{
@@ -31,7 +51,18 @@ class AllPattern {
 			}
 			System.out.println();
 		}
-		System.out.println();
+* * * * * * * * *
+* * * * * * * *
+* * * * * * *
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+
+System.out.println();
+		
 		for (int i = n; i >= 1; i--) /* D */
 		{
 			for (int j = 1; j <= n - i; j++) {
@@ -42,8 +73,16 @@ class AllPattern {
 			}
 			System.out.println();
 		}
-		System.out.println();
-
+System.out.println();
+* * * * * * * * *
+  * * * * * * * *
+    * * * * * * *
+      * * * * * *
+        * * * * *
+          * * * *
+            * * *
+              * *
+                *
 		for (int i = 0; i <= n; i++) /* AB */
 		{
 			for (int j = 1; j <= n - i; j++) {
@@ -57,7 +96,16 @@ class AllPattern {
 			}
 			System.out.println();
 		}
-		System.out.println();
+		*
+              * * *
+            * * * * *
+          * * * * * * *
+        * * * * * * * * *
+      * * * * * * * * * * *
+    * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * *
+System.out.println();
 
 		for (int i = n; i >= 1; i--) /* CD */
 		{
@@ -72,7 +120,17 @@ class AllPattern {
 			}
 			System.out.println();
 		}
-		System.out.println();
+* * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * *
+    * * * * * * * * * * * * *
+      * * * * * * * * * * *
+        * * * * * * * * *
+          * * * * * * *
+            * * * * *
+              * * *
+                *
+
+System.out.println();
 
 		for (int i = 1; i <= n; i++) /* AC */
 		{
@@ -87,7 +145,24 @@ class AllPattern {
 			}
 			System.out.println();
 		}
-		System.out.println();
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * * *
+* * * * * * *
+* * * * * * * *
+* * * * * * * * *
+* * * * * * * *
+* * * * * * *
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+System.out.println();
 
 		/* BD */
 
