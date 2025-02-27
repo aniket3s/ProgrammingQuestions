@@ -92,10 +92,6 @@ class Bank
 				}
 					
 			}
-			if(opt==2)
-			{
-				
-			}
 
 		}
 	}

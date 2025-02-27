@@ -5,10 +5,8 @@ class AutomorphicNumber
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
-		for (int i = 1;i<= sc.nextInt() ;i++ )
-		{
-			
-		int num = i;
+
+		int num = sc.nextInt();
 		int len = 0;
 		int div = 1;
 		int dup = num;
@@ -28,7 +26,6 @@ class AutomorphicNumber
 		}
 		else{
 			System.out.println(dup +" is not an Automorphic number");
-		}
 		}
 		
 	}
