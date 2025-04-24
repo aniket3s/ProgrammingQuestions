@@ -3,7 +3,6 @@ class Permutations
 {
 	public static void main(String[] args) 
 	{
-		int num = 123;
 		String str = "123";
 		int len = str.length();
 		System.out.println(permutations(len));

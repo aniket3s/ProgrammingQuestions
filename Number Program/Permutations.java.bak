@@ -11,7 +11,7 @@ class Permutations
 
 	public static int permutations(int len)
 	{
-		int cnt = 0;
+		int cnt = 1;
 		for (int i=len;i>0 ;i-- )
 		{
 			cnt*=i;
